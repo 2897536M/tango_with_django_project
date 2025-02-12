@@ -31,4 +31,4 @@ class PageForm(forms.ModelForm):
 
         if url and not url.startswith('http://'):
             url = f'https://{url}'
-            cleaned_data =['url'] = url
+            cleaned_data['url'] = url
